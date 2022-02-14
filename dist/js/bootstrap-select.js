@@ -1,7 +1,7 @@
 /*!
  * Bootstrap-select v1.14.0-beta2 (https://developer.snapappointments.com/bootstrap-select)
  *
- * Copyright 2012-2021 SnapAppointments, LLC
+ * Copyright 2012-2022 SnapAppointments, LLC
  * Licensed under MIT (https://github.com/snapappointments/bootstrap-select/blob/master/LICENSE)
  */
 
@@ -1767,7 +1767,7 @@
             children = item.children;
 
         if (children && children.length) {
-          addOptgroup.call(this, startIndex, selectOptions);
+          addOptgroup.call(this, i, selectOptions);
         } else {
           addOption.call(this, item, {});
         }
